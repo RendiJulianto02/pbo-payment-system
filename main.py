@@ -16,6 +16,7 @@ def main() -> None:
         ("transfer", {"saldo": 1_000_000, "bank": "BCA"}, 250_000),
         ("ewallet", {"saldo": 100_000}, 150_000),
         ("ewallet", {"saldo": 5_000_000}, 2_500_000),
+        ("va", {"bank": "BCA"}, 100_000),
         ("qris", {}, 50_000),
     ]
  
